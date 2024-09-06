@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Horizon Zero Dawn",
+      "price": 49.99,
+      "description": "Una nuova avventura di Spider-Man con Miles Morales come protagonista.",
+      "image": "https://collectables.ch/wp-content/uploads/2023/11/x_p1supmhzd-01exset_a-650x920.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Iron Man Mark LXXXV",
+      "price": 69.99,
+      "description": "Figura dettagliata di Iron Man nella sua armatura Mark LXXXV dal film Avengers: Endgame.",
+      "image": "https://m.media-amazon.com/images/I/71KtkXhPAnL.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Batman: The Dark Knight Returns",
+      "price": 59.99,
+      "description": "Action figure di Batman dal film The Dark Knight Returns.",
+      "image": "https://m.media-amazon.com/images/I/81xgVS+CxUL._AC_SY679_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Wonder Woman 1984",
+      "price": 39.99,
+      "description": "Figura di Wonder Woman con il suo outfit dorato dall'omonimo film del 1984.",
+      "image": "https://m.media-amazon.com/images/I/71wDl9v1f0L._AC_SY679_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Captain America: Endgame",
+      "price": 59.99,
+      "description": "Action figure di Captain America in costume da Avengers: Endgame.",
+      "image": "https://m.media-amazon.com/images/I/71RYhPR76eL._AC_SY679_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Thor: Ragnarok",
+      "price": 54.99,
+      "description": "Figura di Thor con il suo costume e armi da Thor: Ragnarok.",
+      "image": "https://m.media-amazon.com/images/I/71GBtSk9h6L._AC_SY679_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Black Widow",
+      "price": 44.99,
+      "description": "Action figure di Black Widow con i suoi accessori iconici dal film Black Widow.",
+      "image": "https://m.media-amazon.com/images/I/71Cfkn1-jpL._AC_SY679_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Hulk: Avengers Assemble",
+      "price": 79.99,
+      "description": "Figura di Hulk ispirata al suo look nel film Avengers Assemble.",
+      "image": "https://m.media-amazon.com/images/I/71WqESrnoRL._AC_SY679_.jpg"
+    }
+  ]
+  
