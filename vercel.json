@@ -7,9 +7,7 @@
 		} 
 	],
 	"routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
+		{ "src": "/action-figures", "dest": "index.js" },
+		{ "src": "/(.*)", "dest": "index.js" }
     ]
 }
