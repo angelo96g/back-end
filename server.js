@@ -115,9 +115,6 @@ app.get('/action-figures', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server in ascolto su http://localhost:${PORT}`);
-});
 
 const db = mysql.createConnection({
   host: 'localhost',   // Il tuo host
@@ -144,4 +141,8 @@ app.get('/products', (req, res) => {
           res.json(results);
       }
   });
+});
+
+app.listen(PORT, () => {
+  console.log(`Server in ascolto su ${PORT}`);
 });
