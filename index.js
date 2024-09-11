@@ -13,6 +13,7 @@ const app = express();
 // const JWT_SECRET = 'your-256-bit-secret'; // Sostituisci con una chiave segreta sicura
 
 app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(bodyParser.json()); // Middleware per gestire il corpo delle richieste JSON
 
 
