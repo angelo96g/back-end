@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const bodyParser = require('body-parser');
 const mysql = require('mysql2');
-require('dotenv').config();
+// require('dotenv').config();
 
 const app = express();
 // const PORT = 3000;
@@ -69,19 +69,19 @@ app.get('/action-figures', (req, res) => {
   });
 });
 
-const db = mysql.createConnection({
-  host: process.env.DB_HOST,   // Host del database
-  user: process.env.DB_USER,   // Utente del database
-  password: process.env.DB_PASSWORD,  // Password del database
-  database: process.env.DB_NAME  // Nome del database
-});
-
 // const db = mysql.createConnection({
-//   host: 'localhost',   // Il tuo host
-//   user: 'root',        // Il tuo utente MySQL
-//   password: 'angelo12.1996',        // La tua password MySQL
-//   database: 'pc'       // Il tuo nome del database
+//   host: process.env.DB_HOST,   // Host del database
+//   user: process.env.DB_USER,   // Utente del database
+//   password: process.env.DB_PASSWORD,  // Password del database
+//   database: process.env.DB_NAME  // Nome del database
 // });
+
+const db = mysql.createConnection({
+  host: 'localhost',   // Il tuo host
+  user: 'root',        // Il tuo utente MySQL
+  password: 'angelo12.1996',        // La tua password MySQL
+  database: 'pc'       // Il tuo nome del database
+});
 
 db.connect(err => {
   if (err) {
